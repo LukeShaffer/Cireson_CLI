@@ -12,14 +12,14 @@ python cireson --getUser -name REDACTED-<PCN>
 python cireson --setUser -name REDACTED-<PCN> -newName
 
 python cireson --getDetails
-				--setDetails -imaged -initials <initials to use>
+                --setDetails -imaged -initials <initials to use>
                     (Customary in department to leave "last changed" initials
                     on computer details)
-				--isComplete
-				--getModel
-				--getPCN
-				--getName
-				--verify //checks for common errors, missing fields, etc, and prints a list
+                --isComplete
+                --getModel
+                --getPCN
+                --getName
+                --verify //checks for common errors, missing fields, etc, and prints a list
 ```
 
 Before writing this, all inventory management was done by manually logging in
