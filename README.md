@@ -6,6 +6,7 @@ I've decided to leave the old design patterns in to "see how far I've come".
 
 Was written to operate in both python2 and python3 with the following syntax:
 
+```
 python cireson --getUser -name REDACTED-<PCN>
 
 python cireson --setUser -name REDACTED-<PCN> -newName
@@ -19,7 +20,7 @@ python cireson --getDetails
 				--getPCN
 				--getName
 				--verify //checks for common errors, missing fields, etc, and prints a list
-
+```
 
 Before writing this, all inventory management was done by manually logging in
 to the inventory portal and comparing inventory values by hand with a
